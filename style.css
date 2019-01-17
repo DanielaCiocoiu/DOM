@@ -1,70 +1,64 @@
 .coolTitle {
   text-align: center;
-  font-family: 'Oswald', Helvetica, sans-serif;
+  font-family: "Oswald", Helvetica, sans-serif;
   font-size: 40px;
-  transform: skewY(-10deg);
+  transform: skewY(-5deg);
   letter-spacing: 4px;
   word-spacing: -8px;
-  color: #F8F81B;
-  text-shadow: 
-    -1px -1px 0 #F8F81B,
-    -2px -2px 0 #F8F81B,
-    -3px -3px 0 grey,
-    -4px -4px 0 grey,
-    -5px -5px 0 grey,
-    -6px -6px 0 grey,
-    -7px -7px 0 grey,
-    -8px -8px 0 #F8F81B,
-    -30px 20px 40px #F8F81B;
+  color: #f8f81b;
+  text-shadow: -1px -1px 0 #f8f81b, -2px -2px 0 #f8f81b, -3px -3px 0 grey,
+    -4px -4px 0 grey, -5px -5px 0 grey, -6px -6px 0 grey, -7px -7px 0 grey,
+    -8px -8px 0 rgb(27, 248, 248), -30px 20px 40px #f8f81b;
 }
 
 .done {
   text-decoration: line-through;
 }
 
-h1{
+h1 {
   margin-top: 70px;
   margin-left: -5%;
-  font-family: 'Shrikhand', cursive;
+  font-family: "Shrikhand", cursive;
 }
 
-div{
+div {
   display: flex;
   margin: 15px;
   font-weight: bold;
 }
 
-ul{
+ul {
   position: relative;
   left: 35%;
   margin-top: 40px;
-  list-style-type: disc ;
-  font-family: 'Open+Sans', cursive;
+  list-style-type: disc;
+  font-family: "Open+Sans", cursive;
 }
-li{
+li {
   margin-left: -25px;
   padding-left: 33px;
   cursor: pointer;
   font-size: 20px;
 }
 
-.btnshape{
+.btnshape {
   border-radius: 100%;
   cursor: pointer;
 }
-.btnshape:hover{
+.btnshape:hover {
   background-color: red;
-  transform: scale(1.2);
+  transform: scale(1.4);
 }
 
-html,body{
-  background: radial-gradient(#c6b6b6   30%, #352e2e 90%) no-repeat fixed;
+html,
+body {
+  background: radial-gradient(#c6b6b6 30%, #352e2e 90%) no-repeat fixed;
   background-size: cover;
   width: 100%;
   height: 100%;
 }
 
-#enter{
+#enter {
   position: relative;
   left: 30%;
   border-radius: 50px;
@@ -74,19 +68,19 @@ html,body{
   cursor: pointer;
   outline: none;
   color: #777;
-  background-color: #F8F81B;
+  background-color: #f8f81b;
   border: none;
   box-shadow: 0 5px #999;
 }
-#enter:hover{
-  background-color: #3e8e41
+#enter:hover {
+  background-color: #3e8e41;
 }
-#enter:active{
+#enter:active {
   box-shadow: 0 2px #777;
   transform: translateY(4px);
 }
 
-#userinput{
+#userinput {
   position: relative;
   left: 30%;
   font-size: 20px;
